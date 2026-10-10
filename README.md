@@ -9,7 +9,7 @@ For the policy assistant (RAG) install pgvector, see `backend/README.md` ("Insta
 and only the knowledge endpoints answer 503.
 
 ## 2. Backend (IntelliJ or terminal)
-Set the Gemini key ONLY as an environment variable (IntelliJ: Run Configuration > Environment variables):
+Set the Gemini key only as an environment variable (IntelliJ: Run Configuration > Environment variables):
 `GEMINI_API_KEY=<your key>`. Never put it in a file.
 ```powershell
 cd backend

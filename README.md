@@ -1,7 +1,7 @@
 # ShopSmart AI (backend + frontend)
 
 - `backend/`  Java 21, Spring Boot 3.5.6, Spring AI 1.1.0, PostgreSQL + pgvector  -> http://localhost:8080
-- `frontend/` React 19 + Vite                                                      -> http://localhost:5173
+- `frontend/` React 19 + Vite                                                      -> http://localhost:5174
 
 ## 1. Database
 Create a database named `shopsmart` (defaults: user `postgres`, password `postgres`; override with SPRING_DATASOURCE_* env vars).
@@ -23,7 +23,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Open http://localhost:5173. Admin login: `admin@shopsmart.com` / `Admin@12345`.
+Open http://localhost:5174. Admin login: `admin@shopsmart.com` / `Admin@12345`.
 
 ## 4. Quick demo
 1. Log in as admin > Admin > Knowledge documents > upload `backend/samples/shopsmart-policies.md`

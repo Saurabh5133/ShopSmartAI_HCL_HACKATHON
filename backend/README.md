@@ -27,7 +27,7 @@ Sample categories/products and an admin user are seeded on first run.
 | `SPRING_DATASOURCE_USERNAME` / `SPRING_DATASOURCE_PASSWORD` | `postgres` / `postgres` |
 | `JWT_SECRET` | dev-only default — **set your own (32+ chars)** |
 | `ADMIN_EMAIL` / `ADMIN_PASSWORD` | `admin@shopsmart.com` / `Admin@12345` |
-| `CORS_ALLOWED_ORIGINS` | `http://localhost:5173` |
+| `CORS_ALLOWED_ORIGINS` | `http://localhost:5174` |
 
 ## Run
 ```bash

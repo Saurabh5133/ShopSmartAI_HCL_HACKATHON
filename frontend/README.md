@@ -5,7 +5,7 @@ React 19 + Vite. Talks to the Spring Boot backend at `http://localhost:8080/api/
 ## Run
 ```powershell
 npm install
-npm run dev        # http://localhost:5173  (the port the backend allows through CORS)
+npm run dev        # http://localhost:5174  (API requests are proxied to the backend on port 8082)
 ```
 Start the backend first. If it runs elsewhere, copy `.env.example` to `.env` and set `VITE_API_URL`.
 
